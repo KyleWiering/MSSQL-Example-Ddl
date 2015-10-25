@@ -12,7 +12,8 @@ begin
 		customerId BIGINT not null,
 		firstLineAddress nvarchar(100) not null,
 		secondLineAddress nvarchar(100) null,
-		zipcode int not null
+		zipcode int not null,
+		typeId int not null
 
 		CONSTRAINT PK_CustomerAddress_AddressId PRIMARY KEY CLUSTERED (addressId)
 )  	

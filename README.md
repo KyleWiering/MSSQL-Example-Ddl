@@ -3,6 +3,9 @@ This repository houses example file system structures for Schema files (and a sc
 
 This project will not be able to deploy itself, but can be used to test deployment utilities.  Include this project in a Database Deployment utility and see if the proper database is created.
 
+# Pre-requisites 
+I used Sql Server Express 2014 http://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx
+
 # Usage
 Structured directories allow Database, Schema, Programmability and Table based Schema files.  This structure reduces the amount of 'failures' due to the way MSSQL deploys with multiple files.
 
